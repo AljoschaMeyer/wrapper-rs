@@ -1,0 +1,18 @@
+[package]
+name = "wrapper"
+description = "A trait for types that wrap other types."
+repository = "https://github.com/AljoschaMeyer/wrapper-rs"
+version = "0.1.0"
+authors = ["Aljoscha Meyer <mail@aljoscha-meyer.de>"]
+edition = "2018"
+license = "CC-PDDC"
+
+[features]
+default = [ "std" ]
+
+alloc = [ "maybe-std/alloc" ]
+std = [ "maybe-std/std" ]
+unstable = [ "maybe-std/unstable" ]
+
+[dependencies]
+maybe-std = "0.1.0"
