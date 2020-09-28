@@ -8,7 +8,7 @@ edition = "2018"
 license = "CC-PDDC"
 
 [features]
-default = [ "std" ]
+default = []
 
 alloc = [ "maybe-std/alloc" ]
 std = [ "maybe-std/std" ]
