@@ -1,5 +1,3 @@
-#[cfg(any(feature = "alloc", feature = "std"))]
-
 use base::prelude::v1::*;
 use base::borrow::Cow;
 

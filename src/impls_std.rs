@@ -1,5 +1,3 @@
-#![cfg(feature = "std")]
-
 use base::io::{BufReader, Cursor, Take};
 
 use crate::Wrapper;

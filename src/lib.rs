@@ -9,7 +9,7 @@
 //! unstable types are enabled with the `unstable` feature.
 
 #![no_std]
-#![cfg_attr(feature = "unstable", associated_type_bounds)]
+#![cfg_attr(feature = "unstable", feature(associated_type_bounds))]
 extern crate maybe_std as base;
 
 /// A type that wraps a value of type `Inner` that can be retrieved via `into_inner`.
